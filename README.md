@@ -15,10 +15,6 @@ This project is a **Scientific Calculator** implemented completely from scratch 
 
 It is deployed as a web application using **Gradio** on Hugging Face Spaces.
 
-🔗 **Live Demo:**  
-(https://huggingface.co/spaces/namradha/calculator)
----
-
 ## 🎯 Why This Project is Special
 
 Unlike normal calculators that rely on built-in evaluation functions, this calculator:
