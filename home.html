@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAMRADHA'S SCIENTIFIC SUITE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Outfit:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="home-page">
+    <div class="hero-container">
+        <header class="glass-nav">
+            <div class="logo">NAMRADHA MANI <span>.</span>EXE</div>
+            <nav>
+                <a href="#features">Features</a>
+                <a href="index.html" class="nav-cta">Launch Suite</a>
+            </nav>
+        </header>
+
+        <main class="hero-content">
+            <div class="badge neon-pulse">SCIENTIFIC COMPUTING EVOLVED</div>
+            <h1 class="hero-title">
+                NAMRADHA'S <br>
+                <span class="gradient-text">SCIENTIFIC SUITE</span>
+            </h1>
+            <p class="hero-subtitle">
+                A premium, glassmorphic computational engine designed for high-precision arithmetic,
+                trigonometry, and scientific analysis. Engineered for performance.
+            </p>
+
+            <div class="hero-actions">
+                <a href="index.html" class="btn btn-primary">
+                    <span class="btn-text">Open Calculator</span>
+                    <span class="btn-icon">→</span>
+                </a>
+                <a href="#features" class="btn btn-secondary">Explore Features</a>
+            </div>
+        </main>
+
+        <div class="floating-elements">
+            <div class="float-circle blue"></div>
+            <div class="float-circle purple"></div>
+            <div class="float-circle pink"></div>
+        </div>
+    </div>
+
+    <section id="features" class="features-grid">
+        <div class="feature-card">
+            <div class="feature-icon">∑</div>
+            <h3>Advanced Stacks</h3>
+            <p>Built on robust Infix-to-Postfix conversion logic for flawless order of operations.</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">sin</div>
+            <h3>Scientific Engine</h3>
+            <p>Full support for trigonometry, logarithms, powers, and higher-order math.</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">◈</div>
+            <h3>Glassmorphic UI</h3>
+            <p>State-of-the-art design featuring backdrop blurs, neon glows, and micro-animations.</p>
+        </div>
+    </section>
+
+    <footer class="home-footer">
+        <p>© 2026 Engineered with ❤️ by <strong>NAMRADHA</strong></p>
+    </footer>
+
+    <script>
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
